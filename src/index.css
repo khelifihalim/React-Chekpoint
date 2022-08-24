@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cont{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vh;
+  margin: 150px 100px 0 0;
+  
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.row{
+  padding: 15px;
+}
+.title{
+  position: relative;
+  margin: 20% 0 0 20%;
+  float: left;
+}
+.container{
+  position: absolute;
+ bottom: 0px;
+}
